@@ -1,0 +1,89 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+  }
+  
+  th, td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  tr:hover {
+    background-color: #f1f1f1;
+  }
+
+  h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 3rem;
+    color: #2c3e50;
+    text-align: center;
+    margin-top: 40px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+
+  h4{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    color: black;
+    text-align: center;
+    margin-top: 40px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+  
+  .input-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    font-size: 1rem;
+    border: 2px solid #ccc;
+    border-radius: 8px 0 0 8px;
+    outline: none;
+    width: 300px;
+  }
+  
+  #addTask {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    background-color: grey;
+    color: white;
+    cursor: pointer;
+    border-radius: 0 8px 8px 0;
+    transition: background-color 0.3s;
+  }
+  
+  #addTask:hover {
+    background-color: #2980b9;
+  }
+
+  td a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  td a:hover {
+    color: #1d6fa5;
+    text-decoration: underline;
+  }
+  
+  
+  

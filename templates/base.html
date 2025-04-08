@@ -1,0 +1,22 @@
+    <!--
+    template inheretance: it's creating a Master html page that includes the skeleton of what each page is 
+    going to look like. And we inherit it on other web pages.
+    This is our skeleton.
+    -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+    {% block head %} {% endblock %}
+    <!--
+    This is Jinja. it is creating a blocj in a template, it where we're going to insert code on all other pages that
+    inherit this template
+    -->
+
+</head>
+<body>
+    {% block body %} {% endblock %}
+</body>
+</html>
